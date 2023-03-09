@@ -1,0 +1,950 @@
+.navlist{
+  margin: 0px 0px 0px 670px;
+  padding:
+}
+.navinner{
+  padding:0px 20px 0px 7px;
+}
+.banner{
+   margin-top: -210px;
+  background-image: url('../img/bg-masthead.jpg');
+  width: 100%;
+  opacity: 100%;
+  background-attachment: scroll;
+  height: 1130px;
+  /* z-index: 1; */
+  /* background-image: linear-gradient(180deg,   ,black); */
+  max-width: 100%;
+}
+
+.bannercolomn{
+text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+.bannerheading{
+   position: absolute;
+   font-size: 104px;
+  font-family:"Varela Round";
+  letter-spacing: 10px;
+  line-height: 100px;
+  margin-top: 350px;
+  margin-left: 280px;
+
+}
+.bannerheading{
+  background: linear-gradient(
+          to bottom, #F8F1F2 ,#938789);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+opacity: 0px;
+}
+.bannerpara{
+   position: absolute;
+  margin-top: 490px;
+  margin-left: 435px;
+  width: 32%;
+  font-size: 20px;
+  color: #938789;
+}
+.bannerlink{
+  position: absolute;
+  margin-top: 600px;
+   margin-left: -90px;
+   display: inline-block;
+   line-height: 1.5;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px;
+   border-radius: 3px;
+   letter-spacing: 3px;
+}
+.color{
+  background-color: black;
+  height: 1100px;
+  /* opacity: 50%; */
+}
+.about{
+  /* position: relative; */
+  background-color: black;
+    /* margin-top: -65px;   */
+   /* background-image: linear-gradient(black, grey); */
+   background: linear-gradient(to bottom ,#000 0%, rgba(0,0,0,0.9)75%,rgba(0,0,0,0.8)100%);
+}
+.aboutcontent{
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.aboutheading{
+  color: white;
+margin-left: 0px;
+margin-top: 0px;
+}
+.aboutpara{
+  width: 45%;
+  text-align: center;
+  color: #938789;
+  margin-left: 345px;
+
+}
+.aboutimg{
+  width: 950px;
+  margin-left: 80px;
+  margin-top: 65px;
+}
+.project{
+  margin-top: 100px;
+  height: 500px;
+}
+.projectimg{
+  width: 675px;
+  margin-left: 115px;
+}
+.projectcolomn{
+  float: left;
+  width: 50%;
+  display: grid;
+  grid-row-gap: 0px;
+}
+.projectheading{
+  margin-left: 165px;
+  margin-top: 140px;
+  font-family:"Varela Round";
+}
+.projectpara{
+  width: 265px;
+  margin-left: 155px;
+  /* margin-top: 145px; */
+  font-family:"Varela Round";
+  line-height: 25px;
+  color:#938789;
+
+}
+.projectrow{
+  text-align: center;
+}
+@media only screen and (min-width: 576px) and (max-width:767px){
+  .bannerheading{
+     position: absolute;
+     font-size: 50px;
+    font-family:"Varela Round";
+    letter-spacing: 10px;
+    line-height: 100px;
+    margin-top: 300px;
+    margin-left: 130px;
+
+  }
+.banner{
+  width: 638px;
+  height: 720px;
+}
+.bannerpara{
+   position: absolute;
+  margin-top: 400px;
+  margin-left: 125px;
+  width: 62%;
+  font-size: 15px;
+  color: #938789;
+}
+.bannerlink{
+  position: absolute;
+  margin-top: 475px;
+   margin-left: -82px;
+   display: inline-block;
+   line-height: 1.5;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px;
+   border-radius: 3px;
+   letter-spacing: 3px;
+}
+.aboutpara{
+  width:80%;
+  text-align: center;
+  color: #938789;
+  margin-left: 50px;
+
+}
+.aboutimg{
+  width: 455px;
+  margin-left: 80px;
+  margin-top: 65px;
+}
+.projectimg{
+  width: 585px;
+  margin-left: 25px;
+}
+.projectpara{
+  width: 360px;
+  margin-left: 135px;
+  /* margin-top: 145px; */
+  font-family:"Varela Round";
+  line-height: 25px;
+  color:#938789;
+
+}
+.projectheading{
+  margin-left: 25px;
+  margin-top: 45px;
+  font-family:"Varela Round";
+}
+.cardimg{
+  width: 585px !important;
+  height: 275px!important;
+  margin-left: 25px!important;
+}
+.cardrow1{
+  margin-left: 25px!important;
+  margin-top: 0px!important;
+  background-color: black;
+  width: 585px!important;
+  height: 220px!important;
+}
+.cardpara{
+  width: 450px!important;
+  text-align: center;
+  letter-spacing: 1px!important;
+  color:#938789;
+}
+.cardheading{
+  margin-left: 195px!important;
+  margin-top: -60px!important;
+  color: white;
+}
+.cardcolomn{
+  margin: 120px 0px 0px 75px!important;
+}
+.cardimg1{
+  width: 585px!important;
+  height: 275px!important;
+  margin: -744px 0px 0px 25px!important;
+}
+.cardpara1{
+  width: 420px!important;
+  text-align: center;
+  letter-spacing: 1px!important;
+  color:#938789;
+}
+.cardheading1{
+   color: white;
+   margin: 0px 0px 8px 160px!important;
+}
+.cardrow2{
+
+  margin: 390px 0px 0px 25px!important;
+  background-color: black;
+  width: 585px!important;
+  height: 220px!important;
+}
+.cardcolomn1{
+  margin: 42px 0px 0px 75px!important;
+}
+.card{
+  margin-top: -35px!important;
+}
+.end{
+  margin-top: 100px!important;
+  height: 700px!important;
+  background-image: url('../img/bg-signup.jpg');
+  opacity: 100%;
+}
+.endbutton{
+  /* position: absolute; */
+  /* margin-top: 600px; */
+    margin-left: 45px!important;
+   display: inline-block;
+   line-height: 1.5!important;
+   /* text-align: center; */
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px!important;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px!important;
+   border-radius: 3px;
+   letter-spacing: 3px;
+     border-style: none;
+     height: 55px!important;
+}
+.endemail{
+  margin-left: 30px!important;
+  width: 325px!important;
+  height: 55px!important;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 13px!important;
+  padding: 0px 0px 0px 35px!important;
+  letter-spacing: 3px;
+
+}
+.endheading{
+  color: white;
+  margin: 10px 0px 65px 155px!important;
+  font-family: 'sans-serif';
+}
+.iconimg{
+  width: 50px!important;
+  margin: 215px 0px 0px 270px!important;
+}
+.footer{
+  background-color: black;
+  height: 930px!important;
+}
+.footercolomn{
+  float: left;
+  width: 500px!important;
+  height: 180px!important;
+  margin: 60px 0px 0px 70px!important;
+  padding: 0px 0px 0px 0px!important;
+  color: grey;
+  background-color: white;
+  border-radius: 5px;
+}
+.footerheading{
+  margin: 20px 0px 0px 205px!important;
+}
+.footerpara{
+  margin: 30px 0px 0px 165px!important;
+}
+.fhr{
+  width: 50px!important;
+  margin: 30px 0px 0px 220px!important;
+
+}
+.icon{
+  margin: 0px 0px -40px 230px!important;
+  width: 20px!important;
+}
+.icon2{
+  margin: 285px 0px 0px 530px!important;
+}
+.icon3{
+  margin: 285px 0px 0px 605px!important;
+}
+.icon4{
+  margin: 285px 0px 0px 680px!important;
+}
+.onlyicon{
+  position: absolute;
+  margin: 500px 0px 0px -290px!important;
+  width: 50px!important;
+  color: grey;
+  border-radius: 50px!important;
+}
+.copy{
+  position: absolute;
+  margin: 870px 0px 0px 215px!important;
+  color: white;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .bannerheading{
+     position: absolute;
+     font-size: 80px;
+    font-family:"Varela Round";
+    letter-spacing: 10px;
+    line-height: 100px;
+    margin-top: 300px;
+    margin-left: 140px;
+
+  }
+.banner{
+  width: 841px;
+  height: 720px;
+}
+.bannerpara{
+   position: absolute;
+  margin-top: 400px;
+  margin-left: 190px;
+  width: 55%;
+  font-size: 20px;
+  color: #938789;
+}
+.bannerlink{
+  position: absolute;
+  margin-top: 495px;
+   margin-left: -95px;
+   display: inline-block;
+   line-height: 1.5;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px;
+   border-radius: 3px;
+   letter-spacing: 3px;
+}
+.aboutpara{
+  width:80%;
+  text-align: center;
+  color: #938789;
+  margin-left: 85px;
+
+}
+.aboutimg{
+  width: 700px;
+  margin-left: 80px;
+  margin-top: 65px;
+}
+.projectimg{
+  width: 715px;
+  margin-left: 80px;
+}
+.projectpara{
+  width: 485px;
+  margin-left: -300px;
+  /* margin-top: 145px; */
+  font-family:"Varela Round";
+  line-height: 25px;
+  color:#938789;
+
+}
+.projectheading{
+  margin-left: -370px;
+  margin-top: 485px;
+  font-family:"Varela Round";
+}
+.cardimg{
+  width: 716px!important;
+  height: 350px!important;
+  margin-left: -691px!important;
+  margin-top: 200px!important;
+}
+.cardrow1{
+  margin-left: -691px!important;
+  margin-top: 0px!important;
+  background-color: black;
+  width: 716px!important;
+  height: 135px!important;
+}
+.cardpara{
+  width: 580px!important;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#938789;
+}
+.cardheading{
+  margin-left: 270px!important;
+  margin-top: -95px!important;
+  color: white;
+}
+.cardcolomn{
+  margin: 120px 0px 0px 75px!important;
+}
+.cardimg1{
+  width: 716px!important;
+  height: 350px!important;
+  margin: 70px 0px 0px -691px!important;
+}
+.cardpara1{
+  width: 565px!important;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#938789;
+}
+.cardheading1{
+   color: white;
+   margin: -115px 0px 8px 230px!important;
+}
+.cardrow2{
+  position: absolute;
+  margin: 1105px 0px 0px -691px!important;
+  background-color: black;
+  width: 716px!important;
+  height: 135px!important;
+}
+.cardcolomn1{
+  margin: 120px 0px 0px 75px!important;
+}
+.card{
+  margin-top: -35px!important;
+}
+
+.end{
+  margin-top: 250px!important;
+  height: 700px!important;
+  background-image: url('../img/bg-signup.jpg');
+  opacity: 100%;
+}
+.endbutton{
+  /* position: absolute; */
+  /* margin-top: 600px; */
+    margin-left: 45px!important;
+   display: inline-block;
+   line-height: 1.5;
+   /* text-align: center; */
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px!important;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px!important;
+   border-radius: 3px;
+   letter-spacing: 3px;
+     border-style: none;
+     height: 55px!important;
+}
+.endemail{
+  margin-left: 120px!important;
+  width: 400px!important;
+  height: 55px!important;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 13px!important;
+  padding: 0px 0px 0px 35px!important;
+  letter-spacing: 3px;
+
+}
+.endheading{
+  color: white;
+  margin: 0px 0px 65px 260px!important;
+  font-family: 'sans-serif';
+}
+.iconimg{
+  width: 50px!important;
+  margin: 215px 0px 0px 393px!important;
+}
+.footer{
+  background-color: black;
+  height: 440px!important;
+}
+.footercolomn{
+  float: left;
+  width: 190px!important;
+  height: 180px!important;
+  margin: 60px 0px 0px 70px!important;
+  padding: 0px 0px 0px 0px!important;
+  color: grey;
+  background-color: white;
+  border-radius: 5px;
+}
+.footerheading{
+  margin: 20px 0px 0px 50px!important;
+}
+.footerpara{
+  margin: 30px 0px 0px 27px!important;
+}
+.fhr{
+  width: 50px!important;
+  margin: 30px 0px 0px 70px!important;
+
+}
+.icon{
+  margin: 0px 0px -40px 77px!important;
+  width: 20px!important;
+}
+.icon2{
+  margin: 285px 0px 0px 530px!important;
+}
+.icon3{
+  margin: 285px 0px 0px 605px!important;
+}
+.icon4{
+  margin: 285px 0px 0px 680px!important;
+}
+.onlyicon{
+  position: absolute;
+  margin: 0px 0px 0px -188px!important;
+  width: 50px!important;
+  color: grey;
+  border-radius: 50px;
+}
+.copy{
+  position: absolute;
+  margin: 375px 0px 0px 315px!important;
+  color: white;
+}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .bannerheading{
+     position: absolute;
+     font-size: 95px;
+    font-family:"Varela Round";
+    letter-spacing: 10px;
+    line-height: 100px;
+    margin-top: 300px;
+    margin-left: 245px;
+
+  }
+.banner{
+  width: 1131px;
+  height: 720px;
+}
+.bannerpara{
+   position: absolute;
+  margin-top: 400px;
+  margin-left: 292px;
+  width: 48%;
+  font-size: 23px;
+  color: #938789;
+}
+.bannerlink{
+  position: absolute;
+  margin-top: 495px;
+   margin-left: -95px;
+   display: inline-block;
+   line-height: 1.5;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px;
+   border-radius: 3px;
+   letter-spacing: 3px;
+}
+.aboutpara{
+  width:40%;
+  text-align: center;
+  color: #938789;
+  margin-left: 330px;
+
+}
+.aboutimg{
+  width: 945px;
+  margin-left: 80px;
+  margin-top: 65px;
+}
+.projectimg{
+  width: 715px;
+  margin-left: 40px;
+}
+.projectpara{
+  width: 340px;
+  margin-left: 110px;
+  /* margin-top: 145px; */
+  font-family:"Varela Round";
+  line-height: 25px;
+  color:#938789;
+
+}
+.projectheading{
+  margin-left: 120px;
+  margin-top: 175px;
+  font-family:"Varela Round";
+}
+.cardimg{
+  width: 535px!important;
+  height: 350px!important;
+  margin-left: 40px!important;
+  margin-top: 70px!important;
+}
+.cardrow1{
+  margin-left: 575px!important;
+  margin-top: -350px!important;
+  background-color: black;
+  width: 511px!important;
+  height: 350px!important;
+}
+.cardpara{
+  width: 385px!important;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#938789;
+}
+.cardheading{
+  margin-left: 170px!important;
+  margin-top: -10px!important;
+  color: white;
+}
+.cardcolomn{
+  margin: 120px 0px 0px 75px!important;
+}
+.cardimg1{
+  width: 511px!important;
+  height: 350px!important;
+  margin: 0px 0px 0px 575px!important;
+}
+.cardpara1{
+  width: 380px!important;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#938789;
+}
+.cardheading1{
+   color: white;
+   margin: -15px 0px 8px 140px!important;
+}
+.cardrow2{
+  position: absolute;
+  margin: 420px 0px 0px 40px!important;
+  background-color: black;
+  width: 536px!important;
+  height: 350px!important;
+}
+.cardcolomn1{
+  margin: 120px 0px 0px 75px!important;
+}
+.card{
+  margin-top: -35px!important;
+}
+
+.end{
+  margin-top: 140px!important;
+  height: 585px!important;
+  background-image: url('../img/bg-signup.jpg');
+  opacity: 100%;
+}
+.endbutton{
+  /* position: absolute; */
+  /* margin-top: 600px; */
+    margin-left: 45px!important;
+   display: inline-block;
+   line-height: 1.5;
+   /* text-align: center; */
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px!important;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px!important;
+   border-radius: 3px;
+   letter-spacing: 3px;
+     border-style: none;
+     height: 55px!important;
+}
+.endemail{
+  margin-left: 220px!important;
+  width: 485px!important;
+  height: 55px!important;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 13px!important;
+  padding: 0px 0px 0px 35px!important;
+  letter-spacing: 3px;
+
+}
+.endheading{
+  color: white;
+  margin: 0px 0px 65px 390px!important;
+  font-family: 'sans-serif';
+}
+.iconimg{
+  width: 50px!important;
+  margin: 215px 0px 0px 540px!important;
+}
+.footer{
+  background-color: black;
+  height: 440px!important;
+}
+.footercolomn{
+  float: left;
+  width: 225px!important;
+  height: 180px!important;
+  margin: 60px 0px 0px 110px!important;
+  padding: 0px 0px 0px 0px!important;
+  color: grey;
+  background-color: white;
+  border-radius: 5px;
+}
+.footerheading{
+  margin: 20px 0px 0px 65px!important;
+}
+.footerpara{
+  margin: 30px 0px 0px 52px!important;
+}
+.fhr{
+  width: 50px!important;
+  margin: 30px 0px 0px 85px!important;
+
+}
+.icon{
+  margin: 0px 0px -40px 93px!important;
+  width: 20px!important;
+}
+.icon2{
+  margin: 285px 0px 0px 530px!important;
+}
+.icon3{
+  margin: 285px 0px 0px 605px!important;
+}
+.icon4{
+  margin: 285px 0px 0px 680px!important;
+}
+.onlyicon{
+  position: absolute;
+  margin: 0px 0px 0px -55px!important;
+  width: 50px!important;
+  color: grey;
+  border-radius: 50px;
+}
+.copy{
+  position: absolute;
+  margin: 375px 0px 0px 450px!important;
+  color: white;
+}
+
+}
+
+
+.cardrow1{
+  margin-left: 640px;
+  margin-top: -350px;
+  background-color: black;
+  width: 525px;
+  height: 350px;
+}
+.cardimg{
+  width: 525px;
+  height: 350px;
+  margin-left: 115px;
+}
+.cardpara{
+  width: 360px;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#938789;
+}
+.cardheading{
+  margin-left: 145px;
+  margin-top: 0px;
+  color: white;
+}
+.cardcolomn{
+  margin: 120px 0px 0px 75px;
+}
+.cardimg1{
+  width: 525px;
+  height: 350px;
+  margin: -379px 0px 0px 640px;
+}
+.cardpara1{
+  width: 360px;
+  text-align: center;
+  letter-spacing: 1px;
+  color:#938789;
+}
+.cardheading1{
+   color: white;
+   margin: 0px 0px 8px 120px;
+}
+.cardrow2{
+  margin: 0px 0px 0px 115px;
+  background-color: black;
+  width: 525px;
+  height: 350px;
+}
+.cardcolomn1{
+  margin: 120px 0px 0px 75px;
+}
+.card{
+  margin-top: -35px;
+}
+
+.end{
+  margin-top: 100px;
+  height: 700px;
+  background-image: url('../img/bg-signup.jpg');
+  opacity: 100%;
+}
+.endbutton{
+  /* position: absolute; */
+  /* margin-top: 600px; */
+    margin-left: 45px;
+   display: inline-block;
+   line-height: 1.5;
+   /* text-align: center; */
+   text-decoration: none;
+   vertical-align: middle;
+   font-size: 14px;
+   color: #fff;
+   background-color: #50817e;
+   box-sizing:border-box;
+   padding: 20px 40px 20px 40px;
+   border-radius: 3px;
+   letter-spacing: 3px;
+     border-style: none;
+     height: 55px;
+}
+.endemail{
+  margin-left: 310px;
+  width: 435px;
+  height: 55px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 13px;
+  padding: 0px 0px 0px 35px;
+  letter-spacing: 3px;
+
+}
+.endheading{
+  color: white;
+  margin: 0px 0px 65px 420px;
+  font-family: 'sans-serif';
+}
+.iconimg{
+  width: 50px;
+  margin: 215px 0px 0px 610px;
+}
+.footer{
+  background-color: black;
+  height: 500px;
+}
+.footercolomn{
+  float: left;
+  width: 330px;
+  height: 180px;
+  margin: 60px 0px 0px 70px;
+  padding: 0px 0px 0px 0px;
+  color: grey;
+  background-color: white;
+  border-radius: 5px;
+}
+.footerheading{
+  margin: 20px 0px 0px 120px;
+}
+.footerpara{
+  margin: 30px 0px 0px 75px;
+}
+.fhr{
+  width: 50px;
+  margin: 30px 0px 0px 140px;
+
+}
+.icon{
+  margin: 0px 0px -40px 140px;
+  width: 20px;
+}
+.icon2{
+  margin: 285px 0px 0px 530px;
+}
+.icon3{
+  margin: 285px 0px 0px 605px;
+}
+.icon4{
+  margin: 285px 0px 0px 680px;
+}
+.onlyicon{
+  position: absolute;
+  margin: 0px 0px 0px 0px;
+  width: 50px;
+  color: grey;
+  border-radius: 50px;
+}
+.copy{
+  position: absolute;
+  margin: 375px 0px 0px 500px;
+  color: white;
+}
